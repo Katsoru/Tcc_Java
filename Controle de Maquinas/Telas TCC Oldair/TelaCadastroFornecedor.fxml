@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pn_CadForn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.uninove.controle.ui.TelaCadastroControlador">
+   <children>
+      <Label layoutX="160.0" layoutY="31.0" text="Cadastro de Fornecedor" />
+      <Label layoutX="14.0" layoutY="86.0" text="Nome" />
+      <Label layoutX="14.0" layoutY="128.0" text="Documento" />
+      <TextField fx:id="Tf_Nome" layoutX="102.0" layoutY="82.0" prefHeight="25.0" prefWidth="198.0" />
+      <Button fx:id="Bt_Cadastrar" layoutX="110.0" layoutY="192.0" mnemonicParsing="false" onAction="#CadastrarOnAction" text="Cadastrar" />
+      <Button fx:id="Bt_Cancelar" layoutX="273.0" layoutY="192.0" mnemonicParsing="false" onAction="#LimparOnAction" prefHeight="25.0" prefWidth="67.0" text="Limpar" />
+      <TextField fx:id="Tf_Documento" layoutX="103.0" layoutY="124.0" />
+   </children>
+</AnchorPane>

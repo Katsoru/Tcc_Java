@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.uninove.controle.ui.TelaCadastroControlador">
+   <children>
+      <Label layoutX="161.0" layoutY="37.0" text="Cadastro de Usuario" />
+      <Label layoutX="14.0" layoutY="86.0" text="Login:" />
+      <Label layoutX="215.0" layoutY="86.0" text="Senha:" />
+      <Label layoutX="14.0" layoutY="128.0" text="Nome:" />
+      <Label layoutX="14.0" layoutY="176.0" text="Privilégio:" />
+      <CheckBox layoutX="79.0" layoutY="176.0" mnemonicParsing="false" text="Administrador" />
+      <TextField layoutX="53.0" layoutY="82.0" />
+      <TextField layoutX="256.0" layoutY="82.0" />
+      <TextField layoutX="53.0" layoutY="124.0" />
+      <Button fx:id="Bt_Cadastrar" layoutX="109.0" layoutY="217.0" mnemonicParsing="false" onAction="#CadastrarOnAction" text="Cadastrar" />
+      <Button fx:id="Bt_Cancelar" layoutX="269.0" layoutY="217.0" mnemonicParsing="false" onAction="#LimparOnAction" prefHeight="25.0" prefWidth="67.0" text="Limpar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.uninove.controle.ui.TelaPrincipalControlador">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu fx:id="Mn_Cad" mnemonicParsing="false" onAction="#MnCadOnAction" text="Cadastro">
+          <items>
+            <MenuItem fx:id="Cad_Equip" mnemonicParsing="false" onAction="#CadEquipOnAction" text="Equipamento" />
+            <MenuItem fx:id="Cad_Usuario" mnemonicParsing="false" onAction="#CadUsuarioOnAction" text="Usuario" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem fx:id="Cad_Fechar" mnemonicParsing="false" onAction="#CadFecharOnAction" text="Fechar" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Consulta">
+          <items>
+            <MenuItem fx:id="Con_Equip" mnemonicParsing="false" onAction="#ConEquipOnAction" text="Equipamento" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Relatorios">
+          <items>
+            <MenuItem fx:id="Rel_SO" mnemonicParsing="false" onAction="#RelSOOnAction" text="Sistema Operacional" />
+                  <MenuItem fx:id="Rel_Compra" mnemonicParsing="false" onAction="#RelCompraOnAction" text="Ano da Compra" />
+                  <MenuItem fx:id="Rel_Office" mnemonicParsing="false" onAction="#RelOfficeOnAction" text="Pacote Office" />
+                  <MenuItem fx:id="Rel_Equip" mnemonicParsing="false" onAction="#RelEquipOnAction" text="Status do Equipamento" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane fx:id="Pn_Painel" maxHeight="-1.0" maxWidth="-1.0" prefHeight="0.0" prefWidth="208.0" VBox.vgrow="ALWAYS" />
+  </children>
+</VBox>

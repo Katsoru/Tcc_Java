@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pn_RelatorioAC" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.uninove.controle.ui.TelaCadastroControlador">
+   <children>
+      <Label layoutX="157.0" layoutY="30.0" text="Relatorio Ano de Compra" />
+      <ChoiceBox fx:id="CB_Lista" layoutX="35.0" layoutY="67.0" onMouseClicked="#listaOnMouseClick" prefWidth="150.0" />
+      <Button fx:id="Bt_Listar" layoutX="209.0" layoutY="67.0" mnemonicParsing="false" onAction="#listarOnAction" prefHeight="25.0" prefWidth="67.0" text="Listar" />
+      <TableView fx:id="TV_Result" layoutX="10.0" layoutY="114.0" prefHeight="334.0" prefWidth="427.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
